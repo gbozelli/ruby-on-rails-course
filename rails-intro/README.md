@@ -206,4 +206,18 @@ rails db:migrate
 
 ## Routing 
 
-- 
+- Router is a matching service
+- HTTP verb (GET, POST, PUT, DELETE) + URL
+- Rails grabs all parameters that came with a request and make them available
+- Root:
+  - Where data is deposited when they reach the URL
+- RESTful routes:
+  - Exists for each action in the site. Example:
+    - GET all data
+    - GET specific data
+    - GET method to create new data
+    - GET method to edit existing data
+    - PUT the data
+    - DELETE specific data
+- Route helpers:
+  - For each route, 
